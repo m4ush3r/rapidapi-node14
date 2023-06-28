@@ -26,7 +26,6 @@ outputs:
   reportUrl:
     description: 'Url for the full test execution URL'
 runs:
-  using: 'node14'
+  using: 'node12'
   main: 'index.js'
-  using: 'docker'
   image: 'DOCKERFILE'
