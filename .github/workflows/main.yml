@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Execute Tests
       id: tstExec
-      uses: m4ush3r/rapidapi-node14@v3
+      uses: m4ush3r/rapidapi-node14@v4
       with:
         test: 'test_310a6230-95a8-4753-902c-90637fbc5ba8'
         location: 'AWS-EU-WEST-3'
